@@ -13,7 +13,6 @@
 - ✅ Exits process immediately on missing vars (safe for production)
 - ✅ Optional: throw error instead (great for testing)
 - ✅ Zero runtime dependencies (only `dotenv` as peer)
-- ✅ Works with **CommonJS** (`require`) — no build step needed
 - ✅ Tiny, readable, and well-documented
 
 ## 📦 Install
