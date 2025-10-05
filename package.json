@@ -1,13 +1,20 @@
 {
   "name": "shark-env-guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Securely validate required environment variables at startup. Fail fast if any are missing.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": ["env", "dotenv", "security", "backend", "variables", "validation"],
+  "keywords": [
+    "env",
+    "dotenv",
+    "security",
+    "backend",
+    "variables",
+    "validation"
+  ],
   "author": "Ali Elsharkawy <alielsharkawy600@gmail.com>",
   "license": "MIT",
   "repository": {
