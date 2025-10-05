@@ -1,6 +1,7 @@
 {
-  "name": "shark-guardEnv",
+  "name": "shark-env-guard",
   "version": "1.0.0",
+  "type": "module",
   "description": "Securely validate required environment variables at startup. Fail fast if any are missing.",
   "main": "index.js",
   "scripts": {
@@ -11,12 +12,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliElsharkawy600/shark-guardEnv.git"
+    "url": "https://github.com/AliElsharkawy600/shark-env-guard.git"
   },
   "bugs": {
-    "url": "https://github.com/AliElsharkawy600/shark-guardEnv/issues"
+    "url": "https://github.com/AliElsharkawy600/shark-env-guard/issues"
   },
-  "homepage": "https://github.com/AliElsharkawy600/shark-guardEnv#readme",
+  "homepage": "https://github.com/AliElsharkawy600/shark-env-guard#readme",
   "dependencies": {
     "dotenv": "^16.0.0"
   }
