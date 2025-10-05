@@ -1,0 +1,21 @@
+{
+  "name": "shark-guardEnv",
+  "version": "1.0.0",
+  "description": "Securely validate required environment variables at startup",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "security",
+    "backend",
+    "variables"
+  ],
+  "author": "Ali Elsharkawy",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1"
+  }
+}
