@@ -27,11 +27,11 @@ npm install shark-env-guard
 
 > Place this at the very top of your main file (e.g., server.js, index.js):
 ```js
-`import { envGuard } from 'shark-env-guard';`
+import { envGuard } from 'shark-env-guard';
 
-💡 Note: This package is published as an ES Module. If you're using CommonJS (require), you'll need to use dynamic import:
+`💡 Note: This package is published as an ES Module. If you're using CommonJS (require), you'll need to use dynamic import:`
 
-`const { envGuard } = await import('shark-env-guard');`
+const { envGuard } = await import('shark-env-guard');
 
 // Ensure these env vars are present before starting the app
 envGuard(['PORT', 'MONGO_URI', 'JWT_SECRET']);
